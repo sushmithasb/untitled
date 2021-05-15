@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-14T10:55:09.654Z",
+        "line": 14,
+        "name": "login page test",
+        "description": "",
+        "id": "application-testing;login-page-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9890656200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens login page",
+            "match": {
+              "location": "stepDefinition.CommonSteps.stepLoadWebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1052194900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "take a screenshot \u0027login page\u0027, \u0027users\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "login page\u0027",
+                  "offset": 19
+                },
+                {
+                  "val": "users",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinition.CommonSteps.stepTakeScreenshot(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "application testing",
+    "description": "",
+    "id": "application-testing",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/login.feature",
+    "tags": []
+  }
+]
